@@ -14,3 +14,6 @@ export type FetchResult<
   TData = Record<string, any>,
   TExtensions = Record<string, any>,
 > = ApolloLink.Result<TData, TExtensions>;
+
+/** @deprecated Use `ApolloLink.ForwardFunction` instead */
+export type NextLink = ApolloLink.ForwardFunction;

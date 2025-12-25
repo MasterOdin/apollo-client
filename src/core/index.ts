@@ -116,6 +116,7 @@ export type {
   DocumentNode,
   FetchResult,
   GraphQLRequest,
+  NextLink,
   Operation,
   RequestHandler,
 } from "@apollo/client/link";

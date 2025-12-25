@@ -12,6 +12,7 @@ export type { ApolloPayloadResult } from "./core/types.js";
 export type {
   FetchResult,
   GraphQLRequest,
+  NextLink,
   Operation,
   RequestHandler,
 } from "./core/deprecated.js";
